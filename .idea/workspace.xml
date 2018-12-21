@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6ba07b8-a21d-4322-a0f1-4d3002887f76" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.rnd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
-      <change beforePath="$PROJECT_DIR$/.idea/CREATE-API.iml" afterPath="$PROJECT_DIR$/.idea/CREATE-API.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" />
-      <change beforePath="$PROJECT_DIR$/app/Model/Product.php" afterPath="$PROJECT_DIR$/app/Model/Product.php" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" afterPath="$PROJECT_DIR$/app/User.php" />
-      <change beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" afterPath="$PROJECT_DIR$/config/auth.php" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,8 +31,8 @@
       <file leaf-file-name="ProductController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProductController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="115" column="6" lean-forward="true" selection-start-line="115" selection-start-column="6" selection-end-line="115" selection-end-column="6" />
+            <state relative-caret-position="299">
+              <caret line="128" column="0" lean-forward="true" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
               <folding>
                 <element signature="e#40#77#0#PHP" expanded="true" />
               </folding>
@@ -318,13 +299,6 @@
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="CREATE-API" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CREATE-API" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -363,18 +337,17 @@
       <option name="presentableId" value="Default" />
       <updated>1545247123581</updated>
       <workItem from="1545247126569" duration="1440000" />
-      <workItem from="1545249634667" duration="13141000" />
+      <workItem from="1545249634667" duration="13502000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14581000" />
+    <option name="totallyTimeSpent" value="14942000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="723" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31098545" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31098545" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -588,8 +561,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProductController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="115" column="6" lean-forward="true" selection-start-line="115" selection-start-column="6" selection-end-line="115" selection-end-column="6" />
+        <state relative-caret-position="299">
+          <caret line="128" column="0" lean-forward="true" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
           <folding>
             <element signature="e#40#77#0#PHP" expanded="true" />
           </folding>
