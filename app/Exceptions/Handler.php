@@ -14,7 +14,10 @@ class Handler extends ExceptionHandler
      * A list of the exception types that are not reported.
      *
      * @var array
+     *
      */
+    use ExceptionTrait;
+
     protected $dontReport = [
         //
     ];
@@ -32,8 +35,9 @@ class Handler extends ExceptionHandler
     /**
      * Report or log an exception.
      *
-     * @param  \Exception  $exception
+     * @param  \Exception $exception
      * @return void
+     * @throws Exception
      */
     public function report(Exception $exception)
     {
@@ -52,22 +56,7 @@ class Handler extends ExceptionHandler
 
         if ($request->expectsJson()) {
 
-            if ($exception instanceof ModelNotFoundException) {
-
-                return response()->json([
-
-                    'errors'=>'Model not found'
-                ], Response::HTTP_NOT_FOUND);
-
-            }
-
-            if ($exception instanceof NotFoundHttpException){
-
-                return response()->json([
-
-                    'errors' => 'Incorrect route'
-                ],Response::HTTP_NOT_FOUND);
-            }
+           return $this->apiException($request,$exception);
         }
         //dd($exception);
         return parent::render($request, $exception);
