@@ -15,7 +15,10 @@ class ReviewResource extends JsonResource
     public function toArray($request)
     {
         return [
-          'coustumer' => $this->customer,
+    // Here we are creating field names to be shown in json format (for example in Postman)
+            'id' => $this->id,
+
+          'customer' => $this->customer,
 
           'body' => $this -> review,
 
